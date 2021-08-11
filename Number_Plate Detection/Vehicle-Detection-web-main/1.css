@@ -1,0 +1,50 @@
+body{
+
+  height: 100%;
+
+  background-image:url(car.jpg);
+  background-repeat: no-repeat;
+  background-size:  1300px 590px;
+  background-attachment: fixed;
+ 
+}
+
+input[type=text], select {
+                    width: 25%;
+                    padding: 10px 10px;
+                    margin: 1px 0;
+                    box-sizing: border-box;
+                    border: 5px solid #E6E6E6;
+                    border-radius: 8px;
+                    outline: none;
+                 }
+                input[type=text]:focus {
+                    border: 5px solid var(--right-color);
+                }
+
+ input[type=submit] {
+                    width: 10%;
+                    height: 8%;
+                    background-color: black;
+                    color: white;
+                    font-size: 14px;
+                    padding: 10px 10px;
+                    margin: 5px 0;
+                    border: none;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    letter-spacing: 1px;
+                }
+                input[type=submit]:hover {
+                    background-color: #661a1a;
+                }
+
+.d1{
+	padding-left: 80px;
+}
+
+h1{
+                    font-size: 42px;
+                    text-shadow: 2px 2px 2px rgba(22,20,19,0.4);
+                    color: var(--left-color);
+                }
